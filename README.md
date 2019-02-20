@@ -8,7 +8,7 @@ This tool allows you to cook, package, and upload your UE4 games to Steam. It is
 
 To use this tool you need:
 * a. the Steamworks SDK downloaded.
-* b. Unreal Engine 4 installed.
+* b. Unreal Engine 4 installed. (duh)
 
 The UE4 Compilation Tool assumes you already have a basic idea on how these two prerequisites work, and that you already know how to compile and upload your project. 
 
