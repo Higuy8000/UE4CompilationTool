@@ -4,13 +4,11 @@ Welcome to the UE4 Compilation Tool.
 
 This tool allows you to cook, package, and upload your UE4 games to Steam. It is quick and rudimentary, but can help you iterate builds and get them up to Steam much faster by automating the process.
 
-For example, for my project Epitasis, I would have to constantly open the project, compile, wait, rename the folder and exe, copy over to some other directorys on my hardrive (a build depository area, or deploy area, and also the Steam content path for building and uploading). This became a redundant and long process.
-
 Even if you don't follow this exact process, I believe that this is a good start to help you on your way.
 
 ## Getting Started
 
-To get started, download the source code. You will have to edit the Settings struct inside UE4CompilationTool.cpp to include your own settings. I've included almost all of mine (besides steam user/pass) to give you an idea of how it's used. 
+To get started, download the source code. You will have to edit the Settings struct inside UE4CompilationTool.cpp to include your own settings. I've included almost all of my original settings as an example (besides steam user/pass) to give you a better idea of how it's used. 
 
 When you're done editing them, recompile the program and run. You should then be able to compile your game via the tool and have it start the process of uploading to Steam automatically. 
 
@@ -25,10 +23,6 @@ When you're done editing them, recompile the program and run. You should then be
 * 'exit' : exits the UE4 Compilation Tool.
 
 'compile_and_upload' is the bread and butter of this tool. It will compile your project, copy them to relevant directories, and then upload to Steam. The only reason this is possible is by the tools already provided in Unreal and Steamworks - again, this application simplies automates the process. 
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
