@@ -188,13 +188,13 @@ int copy_build_to_deploy(Settings settings) {
 			cout << "Renamed to " + settings.renamed_exe + ".exe" << endl;
 		}
 		else {
-			cout << ("" + settings.stage_path + "\\DistantWorldsCode.exe").c_str() << endl;
+			cout << ("" + settings.stage_path + "\\" + settings.actual_project_name).c_str() << endl;
 			cout << ("" + settings.stage_path + "\\" + settings.renamed_exe + ".exe").c_str() << endl;
 			cout << "Renaming failed!" << endl;
 		}
 	}
 
-	//create steam_appid.txt in folder with your app id
+	//create steam_appid.txt in folder with your app id - this isnt actually needed after uploading to steam, but its good to have if you want to test steam features without running from steam itself. 
 	ofstream file_;
 	file_.open(settings.stage_path + "\\" + settings.actual_project_name + "\\Binaries\\Win64\\steam_appid.txt");
 	file_ << settings.app_id;
