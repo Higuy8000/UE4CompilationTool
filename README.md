@@ -2,7 +2,7 @@
 
 Welcome to the UE4 Compilation Tool.
 
-This tool allows you to cook, package, and upload your UE4 games to Steam. It is quick and rudimentary, but can help you iterate builds and get them up to Steam much faster by automating the process.
+This tool allows you to cook, package, and upload your UE4 games to Steamworks. It is quick and rudimentary, but can help you iterate builds and get them up to Steam much faster by automating the entire process.
 
 ## Prerequisites 
 
@@ -31,7 +31,7 @@ When you're done editing them, recompile the program and run. You should then be
 * 'compile' : compiles the UE4 project using your pre-defined settings.
 * 'copy_build_to_deploy' : copies the build from the staging area to the deploy path. This will also rename the exe and top level folder if needed (e.g 'WindowsNoEditor' can be changed to 'epitasis').
 * 'copy_build_to_steam' : copies the build from staging area to the steam content builder folder.
-* 'upload' : prepares and uploads the game build to Steamwworks.
+* 'upload' : prepares and uploads the game build to Steamwworks. (Note: You'll still need to watch for your 2FA code to login!)
 * 'view_settings' : displays currently defined settings.
 * 'exit' : exits the UE4 Compilation Tool.
 
