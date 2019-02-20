@@ -42,4 +42,5 @@ When you're done editing them, recompile the program and run. You should then be
 * Epic Games for Unreal Engine 4.
 * Valve Corporation for Steamworks / Steam.
 * This tool was built by Lucas Govatos.
-* Note: This tool in no way integrates with either of these applications (Unreal Engine 4 or Steamworks), but simply uses Windows commands to open tools provided by each and run commands. 
+
+* Note: This tool in no way integrates with either of these applications (Unreal Engine 4 or Steamworks), but rather open applications provided by each to run pre-defined commands. 
