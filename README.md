@@ -16,13 +16,15 @@ When you're done editing them, recompile the program and run. You should then be
 
 ### Commands
 
-'compile' : compiles the UE4 project using your pre-defined settings.
-'copy_build_to_deploy' : copies the build from the staging area to the deploy path. This will also rename the exe and top level folder if needed (e.g 'WindowsNoEditor' can be changed to 'epitasis').
-'copy_build_to_steam' : copies the build from staging area to the steam content builder folder.
-'upload' : uploads the build to steam.
-'compile_and_upload' : compiles the UE4 project, copies to relevant directories, and then pushes the build to Steam. This is the one the tool is built around.
-'view_settings' : displays currently defined settings.
-'exit' : exits the UE4 Compilation Tool.
+* 'compile' : compiles the UE4 project using your pre-defined settings.
+* 'copy_build_to_deploy' : copies the build from the staging area to the deploy path. This will also rename the exe and top level folder if needed (e.g 'WindowsNoEditor' can be changed to 'epitasis').
+* 'copy_build_to_steam' : copies the build from staging area to the steam content builder folder.
+* 'upload' : uploads the build to steam.
+* 'compile_and_upload' : compiles the UE4 project, copies to relevant directories, and then pushes the build to Steam. This is the one the tool is built around.
+* 'view_settings' : displays currently defined settings.
+* 'exit' : exits the UE4 Compilation Tool.
+
+'compile_and_upload' is the bread and butter of this tool. It will compile your project, copy them to relevant directories, and then upload to Steam. The only reason this is possible is by the tools already provided in Unreal and Steamworks - again, this application simplies automates the process. 
 
 ## License
 
