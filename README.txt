@@ -6,7 +6,7 @@ For example, for my project Epitasis, I would have to constantly open the projec
 
 This simplifies all of that. With a simple command, your project will compile and upload to Steam automatically (the one exception is having to enter in a 2FA code). The command line also allows you to perform individual tasks rather than all at once. 
 
-To get started, download the source code. You will have to edit the Settings struct to include your own settings. I've included almost all of mine (besides steam user/pass) to give you an idea of how it's used. When you're done editing them, recompile the program and run. You should then be able to compile your game via the tool and have it start the process of uploading to Steam automatically. 
+To get started, download the source code. You will have to edit the Settings struct to include your own settings. I've included almost all of mine (besides info you never want to share, like your Steam username and password) to give you an idea of how it's used. When you're done editing them, recompile the program and run. You should then be able to compile your game via the tool and have it start the process of uploading to Steam automatically. 
 
 List of commands the project includes:
 'compile' : compiles the UE4 project using your pre-defined settings.
