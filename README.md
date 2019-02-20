@@ -10,7 +10,7 @@ The general idea is that this tool is your one stop hub for:
 * Compiling your UE4 project.
 * Copying it from the UE4 staging area to a seperate folder (maybe you have a special location on your harddrive just for builds of your game).
 * Copying it to your Steamworks Content Builder folder.
-* Uploading your project to Steam.
+* Building and uploading your game to Steamworks using your app_build script.
 * Automating this entire process by the use of one command. 
 
 To get started, download the source code. You will have to edit the Settings struct inside UE4CompilationTool.cpp to include your own settings. I've included almost all of my original settings as an example (besides steam user/pass) to give you a better idea of how it's used. 
