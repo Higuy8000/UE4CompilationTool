@@ -35,7 +35,9 @@ When you're done editing them, recompile the program and run. You should then be
 * 'view_settings' : displays currently defined settings.
 * 'exit' : exits the UE4 Compilation Tool.
 
-'compile_and_upload' is the bread and butter of this tool. It will compile your project, copy them to relevant directories, and then upload to Steam. The only reason this is possible is by the tools already provided in Unreal and Steamworks - again, this application simplies automates the process. 
+'compile_and_upload' is the bread and butter of this tool. It will compile your project, copy them to relevant directories, and then upload to Steam. The only reason this is possible is by the tools already provided in Unreal and Steamworks - again, this application simply automates the process. 
+
+The copy commands do some special things, like renaming the exe and folder if needed, along with making sure steam_appid.txt is in your binaries. The renaming of the exe and folder became necessary when I realized it wasn't so easy to just rename your entire UE4 project - this is a workaround for that.
 
 ## Acknowledgments
 
