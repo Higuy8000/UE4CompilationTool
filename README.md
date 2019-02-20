@@ -27,7 +27,7 @@ When you're done editing them, recompile the program and run. You should then be
 
 ### Commands
 
-* 'compile_and_upload' : compiles the UE4 project, copies to relevant directories, and then pushes the build to Steamworks. This is the one the tool is built around.
+* 'compile_and_upload' : compiles the UE4 project, copies to relevant directories, and then pushes the build to Steamworks. This is the command the tool is built around.
 * 'compile' : compiles the UE4 project using your pre-defined settings.
 * 'copy_build_to_deploy' : copies the build from the staging area to the deploy path. This will also rename the exe and top level folder if needed (e.g 'WindowsNoEditor' can be changed to 'epitasis').
 * 'copy_build_to_steam' : copies the build from staging area to the steam content builder folder.
