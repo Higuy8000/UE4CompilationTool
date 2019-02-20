@@ -4,6 +4,14 @@ Welcome to the UE4 Compilation Tool.
 
 This tool allows you to cook, package, and upload your UE4 games to Steam. It is quick and rudimentary, but can help you iterate builds and get them up to Steam much faster by automating the process.
 
+## Prerequisites 
+
+To use this tool you need:
+* a. the Steamworks SDK downloaded.
+* b. Unreal Engine 4 installed.
+
+The UE4 Compilation Tool assumes you already have a basic idea on how these two prerequisites work, and that you already know how to compile and upload your project. 
+
 ## Getting Started
 
 The general idea is that this tool is your one stop hub for:
@@ -22,8 +30,8 @@ When you're done editing them, recompile the program and run. You should then be
 * 'compile' : compiles the UE4 project using your pre-defined settings.
 * 'copy_build_to_deploy' : copies the build from the staging area to the deploy path. This will also rename the exe and top level folder if needed (e.g 'WindowsNoEditor' can be changed to 'epitasis').
 * 'copy_build_to_steam' : copies the build from staging area to the steam content builder folder.
-* 'upload' : uploads the build to steam.
-* 'compile_and_upload' : compiles the UE4 project, copies to relevant directories, and then pushes the build to Steam. This is the one the tool is built around.
+* 'upload' : uploads the build to Steamwworks.
+* 'compile_and_upload' : compiles the UE4 project, copies to relevant directories, and then pushes the build to Steamworks. This is the one the tool is built around.
 * 'view_settings' : displays currently defined settings.
 * 'exit' : exits the UE4 Compilation Tool.
 
@@ -32,5 +40,6 @@ When you're done editing them, recompile the program and run. You should then be
 ## Acknowledgments
 
 * Epic Games for Unreal Engine 4.
-* Valve Corporation for Steamworks and Steam.
+* Valve Corporation for Steamworks / Steam.
 * This tool was built by Lucas Govatos.
+* Note: This tool in no way integrates with either of these applications (Unreal Engine 4 or Steamworks), but simply uses Windows commands to open tools provided by each and run commands. 
